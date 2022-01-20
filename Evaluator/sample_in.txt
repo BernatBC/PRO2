@@ -1,0 +1,237 @@
+107
+V01 V02 V03 V04 V05 V06 V07 V08 V09 V10 V11 V12 V13
+V14 V15 V16 V17 V18 V19 V20 V21 V22 V23 V24 V25
+T01 T02 T03 T04 T05
+P01 P02 P03 P04 P05 P06
+C01 C02 C03 C04 C05
+L01 L02 L03 L04 L05 L06 L07 L08
+S01 S02 S03
+M01 M02 M03 M04 M05 M06 M07
+CP01 CP02 CP03 CP04 CP05 CP06 CP07
+AB01 AB02 AB03 AB04 AB05 AB06 AB07 AB08 AB09 AB10 AB11
+AG01 AG02 AG03 AG04
+G01 G02 G03 G04 G05 G06 G07 G08 G09 G10 G11 G12
+DV01 DV02 DV03 DV04 DV05 DV06 DV07
+GE01 GE02 GE03 GE04 GE05 GE06 GE07
+19
+tuplas T01 T02 T04 0 0 T05 0 0 T03 0 0
+vectores_0 V01 V02 0 0 V03 0 0
+vectores_1 V01 V02 V04 0 0 0 V03 V05 0 0 V06 0 0
+vectores_2 V07 V08 V09 V10 0 0 0 V11 0 0 V12 V13 V14 0 0 0 0
+vectores_3 V15 V16 V17 0 0 V18 0 0 0
+matrices V19 V20 V21 0 0 0 V22 V23 0 0 0
+pilas P01 P02 P04 0 0 0 P03 0 0
+colas C01 C02 C03 0 0 0 0
+vectores_sel V06 V10 V16 0 0 V24 V22 0 0 0 V25 V14 0 0 V18 0 0
+pilas_y_colas_sel P03 P05 P06 0 0 0 C02 C04 0 0 C05 0 0
+listas_1 L01 L02 L04 0 0 0 L03 0 0
+listas_2 L05 L06 L07 0 0 L08 0 0 0
+arb_bin_1 AB01 AB02 AB03 AB04 0 0 AB05 0 0 0 AB06 0 0
+arb_bin_2 AB07 AB08 0 0 AB09 AB10 0 0 AB11 0 0
+sets S01 S02 0 0 S03 0 0
+maps M01 M02 M03 0 0 M05 0 0 M04 M06 0 0 M07 0 0
+colas_prior CP01 CP02 CP04 0 0 0 CP03 CP05 CP06 0 0 CP07 0 0 0
+divide_y_venceras DV01 DV02 DV04 0 0 DV05 0 0 DV03 DV06 0 0 DV07 0 0
+generacion_exhaustiva GE01 GE02 GE04 GE06 0 0 0 0 GE03 GE05 GE07 0 0 0 0
+3
+2 tuplas vectores_0
+7 tuplas vectores_1 vectores_2 vectores_3 matrices pilas colas
+9 vectores_sel pilas_y_colas_sel listas_1 listas_2 arb_bin_1 arb_bin_2 sets maps colas_prior
+12
+MarcTerStegen
+SerginhoDest
+SergioBusquets
+Pedri
+LionelMessi
+AnsuFati
+AlexiaPutellas
+AitanaBonmati
+JenniferHermoso
+LiekeMartens
+VickyLosada
+MapiLeon
+
+ls
+nuevo_problema S03
+np S04
+np M08
+np M09
+nuevo_problema G13
+np G14
+np G15
+np G16
+np G01
+nueva_sesion maps
+M07 M08 0 0 M09 0 0
+ns maps_y_sets_sel
+S02 M02 M04 0 0 M08 0 0 S04 M05 0 0 M07 M09 0 0 0
+nueva_sesion grafos_1
+G01 G02 G03 G05 0 0 G06 0 0 G04 0 0 0
+ns grafos_2
+G07 G08 0 0 G09 G10 G12 0 0 0 G11 0 0
+ns grafos_sel
+G01 G02 G03 G13 0 0 0 G04 G14 0 0 0 G07 G08 G15 0 0 0 G09 G16 0 0 0
+nuevo_curso
+5 vectores_sel matrices pilas_y_colas_sel listas_1 arb_bin_1
+nc
+7 vectores_2 colas colas_prior pilas_y_colas_sel listas_2 sets maps
+nuevo_curso
+2 maps_y_sets_sel colas_prior
+nc
+6 maps_y_sets_sel colas_prior divide_y_venceras grafos_1 grafos_2 generacion_exhaustiva
+alta_usuario SergioBusquets
+a OusmaneDembele
+baja_usuario AnsuFati
+b AnsuFati
+
+lc
+escribir_problema G12
+ep G99
+escribir_sesion grafos_2
+es grafos_3
+es grafos_sel
+escribir_curso 5
+ec 6
+escribir_usuario LuisSuarez
+eu LionelMessi
+
+sesion_problema 1 V01
+sp 0 V01
+sp 1 V20
+sp 1 V30
+sp 2 V06
+sp 3 V06
+sp 4 M04
+sp 5 G11
+sp 6 L01
+
+inscribir_curso Pedri 1
+i Pedri 2
+i AnsuFati 1
+i LionelMessi 7
+i LionelMessi 3
+i AitanaBonmati 2
+i MarcTerStegen 4
+i VickyLosada 4
+i LiekeMartens 1
+i MapiLeon 5
+problemas_enviables Pedri
+problemas_enviables AitanaBonmati
+pe MapiLeon
+pe AnsuFati
+pe SerginhoDest
+problemas_resueltos Pedri
+pr LuisSuarez
+curso_usuario AitanaBonmati
+escribir_curso 2
+b AitanaBonmati
+ec 2
+cu AitanaBonmati
+cu JenniferHermoso
+cu MarcTerStegen
+lu
+a AitanaBonmati
+
+envio Pedri V01 0
+e Pedri V01 0
+e Pedri V01 1
+e Pedri T01 1
+pe Pedri
+e Pedri V02 0
+e Pedri V03 1
+e Pedri V02 1
+e Pedri T02 1
+e Pedri T04 0
+e Pedri T04 0
+pe Pedri
+e Pedri T04 1
+e Pedri T03 0
+e Pedri T03 0
+e Pedri T03 1
+e Pedri T05 1
+pe Pedri
+problemas_resueltos Pedri
+curso_usuario Pedri
+escribir_curso 1
+inscribir_curso Pedri 2
+e Pedri V06 1
+e Pedri V04 0
+problemas_enviables Pedri
+e Pedri V04 1
+e Pedri V05 1
+e Pedri P01 1
+e Pedri C01 0
+e Pedri C01 0
+e Pedri V19 0
+e Pedri V19 0
+e Pedri V19 0
+pe Pedri
+pr Pedri
+
+envio MarcTerStegen S02 1
+e MarcTerStegen M02 1
+pe MarcTerStegen
+e MarcTerStegen M08 0
+e MarcTerStegen S04 1
+e MarcTerStegen M08 0
+e MarcTerStegen M04 1
+e MarcTerStegen M05 0
+e MarcTerStegen M05 1
+e MarcTerStegen M07 1
+e MarcTerStegen M09 1
+e MarcTerStegen M08 1
+envio MarcTerStegen CP01 1
+e MarcTerStegen CP02 1
+pe MarcTerStegen
+escribir_curso 4
+e MarcTerStegen CP04 1
+e MarcTerStegen CP03 1
+e MarcTerStegen CP05 1
+e MarcTerStegen CP06 1
+e MarcTerStegen CP07 1
+pe MarcTerStegen
+problemas_resueltos MarcTerStegen
+escribir_curso 4
+i MarcTerStegen 5
+e MarcTerStegen DV01 1
+e MarcTerStegen DV02 0
+e MarcTerStegen DV02 0
+e MarcTerStegen DV02 0
+e MarcTerStegen DV02 0
+problemas_enviables MarcTerStegen
+
+envio LionelMessi AB01 0
+e LionelMessi AB07 0
+e LionelMessi V06 0
+e LionelMessi P03 0
+e LionelMessi L01 0
+e LionelMessi L05 0
+e LionelMessi L05 1
+pe LionelMessi
+
+envio MapiLeon GE01 1
+e MapiLeon G01 1
+e MapiLeon G07 0
+e MapiLeon G07 1
+e MapiLeon CP01 0
+e MapiLeon CP01 1
+e MapiLeon CP03 0
+e MapiLeon CP03 0
+e MapiLeon CP03 1
+pe MapiLeon
+
+envio LiekeMartens T01 0
+e LiekeMartens V01 0
+e LiekeMartens T01 1
+eu LiekeMartens
+b LiekeMartens
+
+i AlexiaPutellas 1
+e AlexiaPutellas T01 1
+cu AlexiaPutellas
+
+listar_sesiones
+listar_cursos
+listar_usuarios
+listar_problemas
+fin
